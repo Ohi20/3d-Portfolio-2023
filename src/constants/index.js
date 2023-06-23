@@ -16,15 +16,14 @@ import {
   figma,
   docker,
   reacticon,
-  meta,
-  shopify,
-  carrent,
-  jobit,
   tripguide,
   threejs,
   nextjs,
   developer,
   fullstack,
+  sikkim,
+  youtube,
+  painting,
 } from '../assets';
 
 export const navLinks = [
@@ -198,16 +197,37 @@ const testimonials = [
 
 const projects = [
   {
-    name: 'Car Rent',
+    name: 'Html-Css-Js',
     description:
-      'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+      'A project for travel management, tour guides, tourist spots and so on. I used html5, css3 and javascript for this project. This project is fully mobile resposive using media quries from css.',
+    tags: [
+      {
+        name: 'html5',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'css3',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'javascript',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: sikkim,
+    source_code_link: 'https://github.com/Ohi20/HTML_CSS_JS_TRAVEL_WEBSITE',
+  },
+  {
+    name: 'YouTube-Clone',
+    description:
+      'Web application that resembles to youtube. Fetched data from Rapid API. This project has search functionality, categories functionality, video details and can use it like youtube.',
     tags: [
       {
         name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
+        name: 'rapidapi',
         color: 'green-text-gradient',
       },
       {
@@ -215,50 +235,29 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: carrent,
-    source_code_link: 'https://github.com/',
+    image: youtube,
+    source_code_link: 'https://github.com/Ohi20/Youtube-Lite-Clone-2023',
   },
   {
-    name: 'Job IT',
+    name: 'BulkArt',
     description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+      'A project with 29 theme change configuration. Used daisyui, taildwind to create beutiful design. Firebase implementaiton for login with email, password and login with google and protected routes.',
     tags: [
       {
         name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'restapi',
+        name: 'firebase',
         color: 'green-text-gradient',
       },
       {
-        name: 'scss',
+        name: 'daisyui',
         color: 'pink-text-gradient',
       },
     ],
-    image: jobit,
-    source_code_link: 'https://github.com/',
-  },
-  {
-    name: 'Trip Guide',
-    description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: tripguide,
-    source_code_link: 'https://github.com/',
+    image: painting,
+    source_code_link: 'https://github.com/Ohi20/Auth-App-With-Firebase',
   },
 ];
 
