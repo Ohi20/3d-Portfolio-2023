@@ -24,6 +24,7 @@ import {
   sikkim,
   youtube,
   painting,
+  qouta,
 } from '../assets';
 
 export const navLinks = [
@@ -179,10 +180,10 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: 'Chris Brown',
-    designation: 'COO',
-    company: 'DEF Corp',
+      'Craved for learning new things and submitted the works on time.',
+    name: 'Jakir',
+    designation: 'CEO',
+    company: 'WeHoursCinema',
     image: 'https://randomuser.me/api/portraits/men/5.jpg',
   },
   {
@@ -258,6 +259,27 @@ const projects = [
     ],
     image: painting,
     source_code_link: 'https://github.com/Ohi20/Auth-App-With-Firebase',
+  },
+  {
+    name: 'Qouta',
+    description:
+      'A project includes google authentication for sign in and register. Theme configuration with dark and light mode. Blog page has data fetched from database mongodb. Can add post and delete post. A protected Dashboard page where all the posted blog there.',
+    tags: [
+      {
+        name: 'Nextjs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'NextAuth',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'Tailwind',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: qouta,
+    source_code_link: 'https://github.com/Ohi20/Fullstack-nextjs-2023',
   },
 ];
 

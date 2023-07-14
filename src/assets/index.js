@@ -31,6 +31,7 @@ import reacticon from './tech/reacticon.png';
 import nextjs from './tech/nextjs.png';
 import developer from './tech/developer.jpg';
 import fullstack from './tech/fullstack.png';
+import qouta from '../assets/qouta.png';
 
 export {
   logo,
@@ -66,4 +67,5 @@ export {
   sikkim,
   youtube,
   painting,
+  qouta,
 };
